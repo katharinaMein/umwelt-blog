@@ -16,7 +16,7 @@ export const blogInitialData = [{
     '</ol>',
   'title': "Schön gesagt",
   'id': 4,
-  "video": "./assets/4.mp4"
+  "video": "/umwelt-blog/assets/4.mp4"
   },
   {
   "title": "Mülltrennung",
@@ -53,7 +53,7 @@ export const blogInitialData = [{
   "date": "10.05.2022",
   "image": "https://images.unsplash.com/photo-1563477710521-5ae0aa5085ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
   "id": 3,
-  "video": "./assets/3.mp4"
+  "video": "/umwelt-blog/assets/3.mp4"
   },
   {
   "title": "Grillspaß im Frühling",
@@ -72,7 +72,7 @@ export const blogInitialData = [{
   "date": "09.05.2022",
   "image": "https://images.unsplash.com/photo-1544470554-71345f04eba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
   "id": 2,
-  "video": "./assets/2.mp4"
+  "video": "/umwelt-blog/assets/2.mp4"
   },
   {
   "title": "Nachhaltigkeit im Alltag",
@@ -112,5 +112,5 @@ export const blogInitialData = [{
     "</ul>\n" +
     "<p>So, das waren sie, meine Tipps zum nachhaltigeren Leben im Alltag. Ich hoffe, für die Ein oder Andere waren ein paar neue Anregungen, die sich in Euren Alltag integrieren lassen. Und bitte nicht vergessen: Jeder Schritt in die richtige Richtung zählt, egal wie klein er auch sein mag!</p>",
   "id": 1,
-  "video": "./assets/1.mp4"
+  "video": "/umwelt-blog/assets/1.mp4"
 }]
