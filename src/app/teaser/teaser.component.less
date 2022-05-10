@@ -1,0 +1,94 @@
+.teaser-container{
+  max-width: 1150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .teaser-image-container{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 48%;
+    position: relative;
+
+    @media only screen and (max-width: 500px){
+      padding-bottom: 55%;
+    }
+
+    img{
+      width: 100%;
+      position: absolute;
+      top: 0;
+    }
+
+    .quote{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-transform: uppercase;
+      color: white;
+      font-family: Akshar;
+      font-size: 30px;
+      text-align: center;
+      max-width: 750px;
+      width: 65%;
+
+      @media only screen and (max-width: 1000px){
+        font-size: 28px;
+        width: 70%;
+      }
+
+      @media only screen and (max-width: 850px){
+        font-size: 26px;
+      }
+
+      @media only screen and (max-width: 700px){
+        font-size: 22px;
+        width: 75%;
+      }
+
+      @media only screen and (max-width: 550px){
+        font-size: 20px;
+        width: 80%;
+      }
+
+      @media only screen and (max-width: 450px){
+        font-size: 18px;
+      }
+
+      @media only screen and (max-width: 350px){
+        font-size: 16px;
+        width: 85%;
+      }
+
+      .quote-author{
+        font-size: 22px;
+        text-transform: none;
+
+        @media only screen and (max-width: 1000px){
+          font-size: 20px;
+        }
+
+        @media only screen and (max-width: 850px){
+          font-size: 19px;
+        }
+
+        @media only screen and (max-width: 700px){
+          font-size: 17px;
+        }
+
+        @media only screen and (max-width: 550px){
+          font-size: 16px;
+        }
+
+        @media only screen and (max-width: 450px){
+          font-size: 14px;
+        }
+
+        @media only screen and (max-width: 350px){
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<div class="comment-section-container">
+  <hr>
+  <h2 class="comment-header">Lass einen Kommentar da!</h2>
+  <form #commentForm="ngForm"
+      (ngSubmit)="onSubmitForm()"
+      class="comment-form"
+      ngNativeValidate>
+    <div class="mb-3">
+      <label for="name">Dein Name:</label>
+      <input [(ngModel)]="commentData.name" id="name" type="text" name="name" class="name-input form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="comment" class="form-label">Kommentar:</label>
+      <textarea [(ngModel)]="commentData.comment" id="comment" rows="5" class="form-control" name="comment" required></textarea>
+    </div>
+    <div class="button-container">
+      <button type="submit" class="btn btn-primary">Kommentar posten</button>
+    </div>
+  </form>
+  <div *ngFor="let comment of comments" class="comment-list">
+    <div class="comment-container">
+      <p class="comment-author"><i class="bi bi-person-circle"></i>{{comment.name}}</p>
+      <p class="comment-date">{{comment.date | date}}</p>
+      <p class="comment">{{comment.comment}}</p>
+    </div>
+  </div>
+</div>

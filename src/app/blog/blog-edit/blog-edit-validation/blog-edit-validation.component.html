@@ -1,0 +1,10 @@
+<h2 class="edit-header">Anmeldung:</h2>
+<h4 class="edit-info">Bitte gib das Admin-Passwort ein, um Einträge zu verfassen oder zu bearbeiten.</h4>
+<form
+  #validationForm="ngForm"
+  (ngSubmit)="submitValidationForm()"
+  class="validation-form">
+  <input type="password" id="password" name="password" [(ngModel)]="password"><br>
+  <button type="submit" class="btn btn-primary">Anmelden</button>
+</form>
+

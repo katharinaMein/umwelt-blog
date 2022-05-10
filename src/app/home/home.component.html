@@ -1,0 +1,5 @@
+<app-teaser></app-teaser>
+<h2 class="last-header">Letzte Einträge:</h2>
+<div class="blog-overview-container">
+  <app-blog-overview-item *ngFor="let blog of LastTwoBlogs" [blog]="blog" class="overview-item"></app-blog-overview-item>
+</div>

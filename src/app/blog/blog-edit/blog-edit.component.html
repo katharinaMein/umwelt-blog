@@ -1,0 +1,5 @@
+<div class="edit-container">
+  <app-blog-edit-validation *ngIf="showValidation" (passwordForValidation)="checkPassword($event)"></app-blog-edit-validation>
+  <app-blog-form *ngIf="password" (submitBlog)="addNewBlog($event)" (updateBlog)="updateBlog($event)"></app-blog-form>
+</div>
+

@@ -1,0 +1,62 @@
+@import '../../../styles.less';
+
+.footer-container{
+  width: 100%;
+  padding: 25px;
+  background-color: rgb(247, 247, 247);
+  height: 100px;
+
+  .footer-container-inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    height: 100%;
+
+    a.navbar-brand{
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: none;
+      margin-right: 0;
+      position: absolute;
+      right: 0;
+
+      .cursive{
+        font-family: 'Yesteryear', cursive;
+        font-size: 30px;
+        transform: rotate(-12deg);
+      }
+
+      .small{
+        font-size: 16px;
+        transform: translateY(13px) translateX(-15px);
+        text-transform: uppercase;
+        font-family: 'Akshar', sans-serif;
+      }
+    }
+  }
+
+  .footer-text{
+    text-align: center;
+    color: rgb(156, 156, 156);
+    font-size: 12px;
+
+    @media only screen and (max-width: 700px){
+      font-size: 11px;
+    }
+  }
+
+  .big-text{
+    font-size: 14px;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+
+    @media only screen and (max-width: 400px){
+      font-size: 12px;
+    }
+  }
+}

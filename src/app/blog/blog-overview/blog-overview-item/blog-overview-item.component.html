@@ -1,0 +1,13 @@
+<div class="blog-container">
+  <a class="image-link" routerLink="/{{blog.id}}">
+    <div class="image-container">
+      <img src='{{blog.image}}' alt="Foto">
+    </div>
+  </a>
+  <a routerLink="{{blog.id}}">
+    <p class="date">{{blog.date}}</p>
+    <h4 class="title">{{blog.title}}:</h4>
+    <p class="description">{{blog.description}}</p>
+    <p class="writtenBy">Geschrieben von: {{blog.author}}</p>
+  </a>
+</div>

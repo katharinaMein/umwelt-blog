@@ -1,0 +1,5 @@
+<div class="blog-overview-container">
+  <app-blog-overview-item-large [firstBlog]="firstBlog" class="overview-item-large"></app-blog-overview-item-large>
+  <app-blog-overview-item *ngFor="let blog of blogs" [blog]="blog" class="overview-item"></app-blog-overview-item>
+</div>
+

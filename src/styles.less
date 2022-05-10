@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
+@primary: #f7f3ec;
+@secondary: rgb(82, 141, 61);
+@text-color: #1c1c1c;
+@light-text: #a1a1a1;
+@hover-color: rgba(82, 141, 61, 0.89);
+@border-color: #d0d0d0;
+
+h1{
+  @media only screen and (max-width: 700px)  {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: 400px)  {
+    font-size: 26px;
+  }
+}
+
+h2{
+  @media only screen and (max-width: 700px)  {
+    font-size: 26px;
+    word-wrap: break-word;
+  }
+
+  @media only screen and (max-width: 400px)  {
+    font-size: 22px;
+  }
+}
+
+p.text{
+
+  h5{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: Akshar;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 700px){
+      font-size: 20px;
+    }
+
+    @media only screen and (max-width: 500px){
+      font-size: 18px;
+    }
+
+    @media only screen and (max-width: 400px){
+      font-size: 17px;
+    }
+  }
+
+  ul{
+    margin-top: -30px;
+    margin-bottom: 0;
+  }
+
+  p{
+    margin-top: -10px;
+
+    @media only screen and (max-width: 700px){
+      font-size: 15px;
+    }
+
+    @media only screen and (max-width: 400px){
+      font-size: 14px;
+    }
+  }
+}
+
+body{
+  min-height: 100vh;
+  position: relative;
+}
+
+button{
+  font-family: Akshar;
+  background-color: @secondary;
+  border: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  &:focus{
+    background-color: @secondary;
+    box-shadow: none;
+    border: none;
+  }
+
+  &:hover{
+    background-color: @hover-color;
+    box-shadow: none;
+    border: none;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 14px;
+  }
+}
+
+
+

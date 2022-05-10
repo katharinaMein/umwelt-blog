@@ -1,0 +1,129 @@
+@import '../../../styles.less';
+
+nav{
+  position: sticky;
+  top: 0;
+  background-color: @secondary;
+  border: none;
+  border-radius: 0;
+  min-height: 60px;
+  z-index: 100;
+
+  .container-fluid{
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    min-height: 60px;
+
+    ul.navbar-nav{
+      margin-top: 0;
+      margin-bottom: 0;
+
+      li{
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover a{
+          text-decoration: underline;
+        }
+
+        a.nav-link{
+          font-size: 16px;
+          padding-bottom: 4px;
+          padding-top: 8px;
+          color: @text-color;
+        }
+      }
+
+      li.active{
+        a{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  a{
+    font-family: 'Akshar', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    margin-right: 0.5rem;
+  }
+
+  a.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: absolute;
+    right: 50%;
+    transform: translateX(+50%);
+    text-transform: none;
+    margin-right: 0;
+
+    .cursive{
+      font-family: 'Yesteryear', cursive;
+      font-size: 46px;
+      transform: rotate(-12deg) translateY(10px);
+    }
+
+    .small{
+      font-size: 20px;
+      transform: translateY(13px) translateX(-3px);
+      text-transform: uppercase;
+    }
+
+    @media only screen and (max-width: 991px){
+      position: fixed;
+      right: 0px;
+      transform: translateX(0);
+      top: 3px;
+
+      .cursive{
+        transform: rotate(-12deg);
+        font-size: 30px;
+      }
+
+      .small{
+        transform: translateY(13px) translateX(-18px);
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      right: -10px;
+    }
+  }
+}
+
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.navbar-toggler{
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 991px){
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler-icon{
+    background-color: @text-color;
+    height: 2px;
+    margin: 2px 0;
+  }
+}
+
+.navbar-toggler[aria-expanded="true"]{
+  border: none !important;
+}
+
