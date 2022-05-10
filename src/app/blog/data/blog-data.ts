@@ -15,7 +15,8 @@ export const blogInitialData = [{
     '    <li>"«Es ist nur ein Strohhalm», sagten 8 Milliarden Menschen."<br><i>- Unbekannt -</i></li>\n' +
     '</ol>',
   'title': "Schön gesagt",
-  'id': 4
+  'id': 4,
+  "video": "./assets/4.mp4"
   },
   {
   "title": "Mülltrennung",
@@ -52,7 +53,7 @@ export const blogInitialData = [{
   "date": "10.05.2022",
   "image": "https://images.unsplash.com/photo-1563477710521-5ae0aa5085ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
   "id": 3,
-  "video": "https://www.pexels.com/de-de/video/person-glas-gesichtslos-kuche-7551328/"
+  "video": "./assets/3.mp4"
   },
   {
   "title": "Grillspaß im Frühling",
@@ -70,7 +71,8 @@ export const blogInitialData = [{
     "<p>Und natürlich bringt auch die noch so nachhaltige Grillkohle nichts, wenn man anschließend mit der Chemiekeule heranrückt, um ein Feuer zu machen. Besser ist es, auf chemische Grillanzünder zu verzichten und biologische Alternativen zu nutzen. Beispielsweise findet Ihr Grillanzünder aus Holzwolle oder pflanzlichem Wachs heute in vielen Supermärkten. Und wer ganz viel Zeit hat, kann auch mal versuchen, ohne Grillanzünder ein Feuer zu entfachen.</p>\n",
   "date": "09.05.2022",
   "image": "https://images.unsplash.com/photo-1544470554-71345f04eba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-  "id": 2
+  "id": 2,
+  "video": "./assets/2.mp4"
   },
   {
   "title": "Nachhaltigkeit im Alltag",
@@ -109,5 +111,6 @@ export const blogInitialData = [{
     "    <li>Überlegt Euch gut, was Eurem Kleiderschrank noch fehlt und kauft nur Dinge, die Euch wirklich gefallen, passen und sich gut mit dem Rest Eures Kleiderschranks kombinieren lassen. So habt Ihr möglichst lange etwas davon.</li>\n" +
     "</ul>\n" +
     "<p>So, das waren sie, meine Tipps zum nachhaltigeren Leben im Alltag. Ich hoffe, für die Ein oder Andere waren ein paar neue Anregungen, die sich in Euren Alltag integrieren lassen. Und bitte nicht vergessen: Jeder Schritt in die richtige Richtung zählt, egal wie klein er auch sein mag!</p>",
-  "id": 1
+  "id": 1,
+  "video": "./assets/1.mp4"
 }]
